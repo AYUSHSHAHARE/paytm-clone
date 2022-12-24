@@ -1,0 +1,1580 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+}
+body::-webkit-scrollbar-button
+{
+    width: 120%;
+    height: 12%;
+    /* border-radius: 20%; */
+    background-color: blue;
+}
+.box1{
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+  min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+nav img{
+    cursor: pointer;
+}
+nav ul{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav ul li{
+    font: 900 1.1vmax "poppins";
+    cursor: pointer;
+}
+.topright{
+    width: 8%;
+    border-radius:25px ;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(0,186,242);
+    padding: .8vh 0;
+    cursor: pointer;
+}
+.topright h1{
+    font: 900 1vmax "roboto";
+    color: white;
+    margin-left: 21px;
+    margin-right: 10px;
+}
+.topright img {
+    background-color: rgb(0,41,112);
+    padding: 4px 4px;
+    border-radius: 50%;
+    /* margin-left: 15px; */
+}
+.topright:hover{
+    background-color:rgb(0,41,112); 
+    
+}
+.topright img:hover{
+    background-color:rgb(0,186,242) ;
+}
+#frontline{
+    width: 100%;
+  min-height: 6vh;
+    background-color: rgb(245,245,245);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1vh 0;
+}
+#frontline h1{
+    font: 900 1vmax "roboto";
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+#frontline h3{
+    font: 500 1vmax "roboto";
+    letter-spacing: .5px;
+
+}
+.frontline h2{
+   margin: 0 3px 3px 3px;
+}
+.box1bottom{
+    width: 100%;
+   min-height: 80vh;
+    display: flex;
+    margin-top: 2.5vmax;
+}
+.left{
+    width: 50%;
+    min-height: inherit;
+    flex-direction: column; 
+    padding: 120px;
+}
+.left h1{
+    margin-top: 40px;
+    font: 900 3.5vmax "roboto";
+}
+.left p{
+    margin-top: 20px;
+    font: 500 1.3vmax "roboto";
+    padding: 0 40px 0 0;
+}
+.leftbutton{
+    width: 50%;
+   background-color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.leftbutton h1{
+   font: 500 1vmax "roboto";
+   margin: 15px 20px;
+   /* padding: 0 20px; */
+}
+.leftbutton i{
+    margin: 0 2px;
+ }
+.leftbutton:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.right{
+    min-height: inherit;
+    width: 50%;
+    display: flex;
+    align-self: flex-end;
+    justify-content:flex-end;
+}
+.box2{
+    min-height: 100vh;
+    width: 100%;
+}
+.box2top{
+    width: 100%;
+    min-height: 35vh;
+    background-color: rgb(0,186,242);
+    padding: 4vh 7vw;
+}
+.box2top h1{
+    color: #fff;
+    font: 900 2.35vmax "roboto";
+    letter-spacing: 1px;
+    margin-left: 2vmax;
+    margin-top: 4vh;
+}
+.box2top1{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2card1{
+width: 12%;
+height:25vh ;
+border-radius: 15px;
+padding: 15px 15px;
+position: relative;
+}
+.box2card1:hover{
+    background-color:rgba(67, 85, 101, 0.107); 
+}
+.box2card1 img{
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+.box2card1 h2{
+    font: 500 1.1vmax "roboto";
+    color: #fff;
+    /* padding-right: 45px; */
+    margin-left: 5px;
+}
+.box2card1 i{
+    color: #fff;
+    position: absolute;
+    top: 80%;
+}
+
+.box2bottom{
+    width: 100%;
+    min-height: 35vh;
+    background-color: rgb(15,74,138);
+    padding: 4vh 7vw;
+}
+.box2bottom h1{
+    color: #fff;
+    font: 900 2.35vmax "roboto";
+    letter-spacing: 1px;
+    margin-left: 2vmax;
+    margin-top: 4vh;
+}
+.box2top2{
+    width: 100%;
+    min-height: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box2card2{
+width: 12%;
+height:22vh ;
+border-radius: 15px;
+padding: 15px 15px 5px;
+position: relative;
+}
+.box2card2:hover{
+    background-color:rgba(5, 16, 26, 0.184); ;
+}
+.box2card2 img{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.box2card2 h2{
+    font: 900 1.2vmax "roboto";
+    color: #fff;
+    /* padding-right: 45px; */
+    margin-left: 5px;
+}
+.box2card2 i{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+}
+
+.box3{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+.box3 h2{
+    font: 900 3vmax "roboto";
+    margin:0 600px 40px 0 ;
+    letter-spacing: 1px;
+}
+.box3a{
+    width: 78%;
+    min-height: 80vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    border-radius: 10px;
+}
+.box3atop{
+    display: flex;
+    margin: 120px 0px 0 110px;
+    align-items: center;
+}
+.box3atop h1 {
+    font: 900 1vmax "roboto";
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.box3left{
+    width: 50%;
+    min-height: inherit;
+}
+.box3left h3{
+    font: 900 2.4vmax "roboto";
+    margin: 50px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box3left p{
+    font: 500 1.1vmax "roboto";
+    margin: 40px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box3right{
+    width: 50%;
+    min-height: inherit;
+    padding: 80px 0;
+}
+.box3abutton{
+    width: 40%;
+   background-color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 40px 110px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.box3abutton h1{
+   font: 500 1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+   letter-spacing: 1px;
+}
+.box3abutton i{
+    margin: 0 2px;
+ }
+.box3abutton:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+.box4{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box4a{
+    width: 78%;
+    min-height: 80vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    border-radius: 10px;
+}
+.box4atop{
+    display: flex;
+    margin: 90px 0px 0 110px;
+    align-items: center;
+}
+.box4atop h1 {
+    font: 900 1vmax "roboto";
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.box4left{
+    width: 50%;
+    min-height: inherit;
+}
+.box4left h3{
+    font: 900 2.4vmax "roboto";
+    margin: 50px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box4left p{
+    font: 500 1.1vmax "roboto";
+    margin: 40px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box4right{
+    width: 50%;
+    min-height: inherit;
+    padding: 80px 0;
+}
+.box4abutton{
+    width: 40%;
+   background-color: rgb(8, 8, 8);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 40px 110px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.box4abutton h1{
+   font: 500 1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+   letter-spacing: 1px;
+}
+.box4abutton i{
+    margin: 0 2px;
+ }
+.box4abutton:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+.box5{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box5a{
+    width: 78%;
+    min-height: 80vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    border-radius: 10px;
+}
+.box5atop{
+    display: flex;
+    margin: 120px 0px 0 110px;
+    align-items: center;
+}
+.box5atop h1 {
+    font: 900 1vmax "roboto";
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.box5left{
+    width: 60%;
+    min-height: inherit;
+    
+}
+.box5left h3{
+    font: 900 2.4vmax "roboto";
+    margin: 50px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box5left p{
+    font: 500 1.1vmax "roboto";
+    margin: 30px 0px 0 110px;
+    color: rgb(12,0,16);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box5right{
+    width: 40%;
+    min-height: inherit;
+    padding: 80px 0px 0 0px;
+   
+}
+.box5abutton{
+    width: 22%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 40px 110px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box5abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box5abutton:hover{
+    background-color: rgb(0,186,242);
+}
+
+.box6{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(245,247,250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6left{
+    min-height: 90vh;
+    width: 36%;
+    background-color: rgb(255,255,255);
+    margin: 0 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.box6left img{
+    margin: 60px 230px 0 0px;
+}
+.box6left h1{
+    margin: 30px 50px 0 0px;
+    font: 900 2.5vmax "roboto";
+    letter-spacing: 1px;
+}
+.box6left p{
+    margin: 25px 0px 0 0px;
+    font: 900 1.2vmax "roboto";
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.box6leftbottom{
+    padding: 100px;
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(paytm/card1.png);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+
+.box6right{
+    min-height: 90vh;
+    width: 36%;
+    background-color: rgb(255,255,255);
+    margin: 0 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box6right img{
+    margin: 110px 220px 0 0px;
+}
+.box6right h1{
+    margin: 30px 50px 0 0px;
+    font: 900 2.5vmax "roboto";
+    letter-spacing: 1px;
+}
+.box6right p{
+    margin: 25px 0px 0 0px;
+    font: 900 1.2vmax "roboto";
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.box6rightbottom{
+    padding: 100px;
+    width: 100%;
+    min-height: 50vh;
+    background-image: url(paytm/1626079147084.png);
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.box7{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box7a{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    border-radius: 10px;
+}
+
+.box7atop{
+    display: flex;
+    margin: 70px 0px 0 170px;
+    align-items: center;
+}
+
+.box7left h1 {
+    font: 900 3vmax "roboto";
+    margin: 60px 0px 0 180px;
+    letter-spacing: 1px;
+}
+.box7left{
+    width: 60%;
+    min-height: inherit;
+
+}
+.box7left h3{
+    font: 900 2.4vmax "roboto";
+    margin:60px 0px 0 170px;
+    letter-spacing: 1px;
+}
+.box7left p{
+    font: 600 1.25vmax "roboto";
+    margin: 30px 0px 0 170px;
+    color: rgb(12,0,16);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box7right{
+    width: 40%;
+    min-height: inherit;
+    padding: 150px 0px 0 0px;
+   
+}
+.box7abutton{
+    width: 22%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 50px 170px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box7abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box7abutton:hover{
+    background-color: rgb(0,186,242);
+}
+.box8{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box8a{
+    width: 100%;
+    min-height: 70vh;
+   background-image: url(paytm/69678bc5.png);
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.box8atop{
+    display: flex;
+    margin: 70px 0px 0 170px;
+    align-items: center;
+}
+
+.box8left{
+    width: 60%;
+    min-height: inherit;
+
+}
+.box8left h3{
+    font: 900 2.5vmax "roboto";
+    margin:50px 0px 0 170px;
+    letter-spacing: 1px;
+}
+.box8left p{
+    font: 600 1.3vmax "roboto";
+    margin: 30px 0px 0 170px;
+    color: rgb(12,0,16);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box8right{
+    width: 40%;
+    min-height: inherit;
+    padding: 80px 0px 0 120px;
+   
+}
+.box8abutton{
+    width: 22%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 50px 170px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box8abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box8abutton:hover{
+    background-color: rgb(0,186,242);
+}
+.box9{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box9a{
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(255,255,255);
+    display: flex;
+    border-radius: 10px;
+}
+
+.box9atop{
+    display: flex;
+    margin: 100px 0px 0 170px;
+    align-items: center;
+}
+.box9left{
+    width: 60%;
+    min-height: inherit;
+
+}
+.box9left h3{
+    font: 900 2.4vmax "roboto";
+    margin:60px 0px 0 170px;
+    letter-spacing: 1px;
+}
+.box9left p{
+    font: 600 1.25vmax "roboto";
+    margin: 30px 0px 0 170px;
+    color: rgb(12,0,16);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box9right{
+    width: 40%;
+    min-height: inherit;
+    padding: 100px 0px 0 0px;
+   
+}
+.box9abutton{
+    width: 22%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 50px 170px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box9abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box9abutton:hover{
+    background-color: rgb(0,186,242);
+}
+.box10{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(245,247,250);
+}
+
+.box10a{
+    width: 100%;
+    min-height: 70vh;
+background-color: rgb(245,247,250);
+    display: flex;
+    border-radius: 10px;
+}
+
+.box10atop{
+    display: flex;
+    margin: 70px 0px 0 210px;
+    align-items: center;
+}
+
+.box10left{
+    width: 60%;
+    min-height: inherit;
+
+}
+.box10left h3{
+    font: 900 2.5vmax "roboto";
+    margin:50px 0px 0 210px;
+    letter-spacing: 1px;
+}
+.box10left p{
+    font: 600 1.1vmax "roboto";
+    margin: 30px 0px 0 210px;
+    color: rgb(12,0,16);
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box10right{
+    width: 40%;
+    min-height: inherit;
+    padding: 20px 0px 0 180px;
+   
+}
+.box10abutton{
+    width: 22%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 50px 170px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box10abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box10abutton:hover{
+    background-color: rgb(0,186,242);
+}
+
+
+.box11{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255,255,255);
+}
+.box11 h2{
+    font: 900 3vmax "roboto";
+    margin:0 600px 40px 0 ;
+    letter-spacing: 1px;
+}
+.box11a{
+    width: 78%;
+    min-height: 80vh;
+    background-color: rgb(245,247,250);
+    display: flex;
+    border-radius: 10px;
+}
+.box11atop{
+    display: flex;
+    margin: 120px 0px 0 110px;
+    align-items: center;
+}
+.box11atop h1 {
+    font: 900 1vmax "roboto";
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.box11left{
+    width: 50%;
+    min-height: inherit;
+}
+.box11left h3{
+    font: 900 2.4vmax "roboto";
+    margin: 220px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box11left p{
+    font: 500 1.1vmax "roboto";
+    margin: 30px 0px 0 110px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box11right{
+    width: 50%;
+    min-height: inherit;
+    padding: 80px 0px 0 160px;
+}
+.box11abutton{
+    width: 28%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 40px 110px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box11abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.dash{
+    width: 4%;
+    height: .2vh;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+}
+
+.box11abutton:hover{
+    background-color: rgb(0,186,242);
+}
+
+.box12{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255,255,255);
+}
+
+.box12a{
+    width: 78%;
+    min-height: 70vh;
+    background-color: rgb(245,247,250);
+    display: flex;
+    border-radius: 10px;
+}
+.box12atop{
+    display: flex;
+    margin: 120px 0px 0 110px;
+    align-items: center;
+}
+.box12atop h1 {
+    font: 900 1vmax "roboto";
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+.box12left{
+    width: 50%;
+    min-height: inherit;
+}
+.box12left h3{
+    font: 900 2.4vmax "roboto";
+    margin: 150px 0px 0 110px;
+    letter-spacing: 1px;
+}
+.box12left p{
+    font: 500 1.1vmax "roboto";
+    margin: 30px 0px 0 110px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.box12right{
+    width: 50%;
+    min-height: inherit;
+    padding: 80px 0px 0 160px;
+}
+.box12abutton{
+    width: 28%;
+    background-color: rgb(0,41,112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 40px 110px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+.box12abutton h1{
+   font: 500 1.1vmax "roboto";
+   margin: 15px 10px 15px 30px;
+}
+.box12abutton i{
+    width: 0%;
+ }
+.dash{
+    width: 4%;
+    height: .2vh;
+    transition: 1s all linear;
+ background-color: #fff;
+ /* margin-left: 1vw; */
+ /* display: none; */
+}
+
+.box12abutton:hover {
+    background-color: rgb(0,186,242);
+}
+/* .box12abutton:hover .dash {
+    background-color: rgb(0,186,242);
+    /* display: initial; */
+} */
+.box13{
+    width: 100%;
+    min-height: 100vh;
+}
+.box13 h1{
+    font: 900 2.5vmax "poppins";
+    margin: 50px 0px 0px 180px;
+}
+.box13cards{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b13cards{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    flex-direction: column;
+    width: 18%;
+    min-height: 70vh;
+    margin: 0 20px;
+}
+.b13cards h2{
+    font: 900 1.8vmax "roboto";
+    margin: 50px 90px 0px 20px;
+}
+.b13cards h3{
+    font: 500 1.3vmax "roboto";
+    margin: 50px 40px 0px 20px;
+    line-height: 25px;
+}
+.b13cards p{
+    font: 900 1vmax "roboto";
+    cursor: pointer;
+}
+.learn{
+    width: 35%;
+    min-height: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 200px 0px 60px;
+}
+.learn i{
+  transform: translateX(-50%);
+  display: none;
+  transition: 1s all ease-in-out;
+}
+.learn:hover i{
+    transform: translateX(20%);
+    display: initial;
+}
+.box14{
+    width: 100%;
+    /* min-height: 100vh;
+    background-color: aqua; */
+}
+.box14top{
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box14top h1{
+    font: 500 1vmax "roboto";
+    margin: 50px 90px 0px 0px;
+}
+.box14top p{
+    font: 500 1.1vmax "roboto";
+    margin: 20px 90px 0px 0px;
+    color: rgb(77,207,246);
+    cursor: pointer;
+}
+.box14top p:hover{
+color: black;
+}
+.bt14right{
+    width: 60%;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.bt14cards{
+    width: 19%;
+    /* min-height: 32vh; */
+    background-color:rgb(77,207,246) ;
+    margin: 0 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 15px;
+    transition: 1s all ease-in-out;
+   
+}
+
+
+.bt14cards:hover ,.bt14cards img {
+    background-color:rgba(77, 173, 246, 0.882) ;
+    transform: scale(1.1);
+}
+.bt14cards h2{
+    font: 600 1.2vmax "roboto";
+    margin: 20px 00px 20px 0px;
+    color: #fff;
+}
+.box14bottom{
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box14bottom h1{
+    font: 500 1vmax "roboto";
+    margin: 50px 90px 0px 0px;
+}
+.box14bottom p{
+    font: 500 1.1vmax "roboto";
+    margin: 20px 90px 0px 0px;
+    color: rgb(77,207,246);
+    cursor: pointer;
+}
+.box14bottom p:hover{
+color: black;
+}
+.bb14right{
+    width: 60%;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.bb14cards{
+    width: 19%;
+    min-height: 32vh;
+    background-color:rgb(77,207,246) ;
+    margin: 0 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: flex-start; */
+    flex-direction: column;
+    padding: 30px 0px 0 10px;
+}
+.bb14cards:hover {
+    background-color:rgba(77, 173, 246, 0.882) ;
+}
+.bb14cards h2{
+    font: 600 1.2vmax "roboto";
+    margin: 25px 00px 0px 0px;
+    color: #fff;
+}
+.bb14cards h3{
+    font: 600 .8vmax "roboto";
+    margin: 5px 00px 0px 0px;
+    color: #fff;
+    line-height: 25px;
+}
+.box15{
+    min-height: 400vh;
+    width: 100%;
+    background-color: rgb(245,247,250);
+    padding: 20px 120px;
+}
+.b15top{
+    width: 100%;
+    min-height: 20vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.b15topleft{
+    width: 45%;
+    display: flex;
+     justify-content: space-between;
+}
+.b15topleft h1{
+    font: 600 1.3vmax "roboto";
+    letter-spacing: .5px;
+    margin-left: 15px;
+}
+.b15topright{
+    width: 12%;
+    display: flex;
+     justify-content: space-around;
+}
+.a{ margin-top: 20px;
+    margin-left: 15px;
+    border-color: rgba(214, 214, 215, 0.375);
+}
+.b15middle{
+    margin-top: 70px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.b15middle h1{
+    font: 600 1vmax "roboto";
+}
+.b{
+    margin-left: 150px;
+    border-color: rgba(214, 214, 215, 0.375);
+}
+h2{
+    font: 600 1vmax "roboto";
+    letter-spacing: .5px;
+    margin: 10px 39px ;
+}
+.a1 , .b1 , .d1, .e1, .g1, .i1, .j1, .k1, .l1, .n1, .o1, .p1, .q1, .s1, .t1, .u1, .v1, .w1, .y1, .a11, .b11, .c11, .d11, .e11, .f11, .g11, .h11, .j11, .k11, .m11, .o11, .p11, .q11, .s11, .t11, .u11, .v11, .w11, .x11, .y11, .z11, .b11{
+    font: 200 .815vmax "roboto";
+    margin: 15px 39px ;
+    color: rgba(59, 58, 60, 0.884) ;
+    line-height: 25px;
+}
+span{
+    color:rgb(64,186,242);
+    font: 800 .82vmax "roboto";
+    cursor: pointer;
+}
+.sp{
+    font: 600 .82vmax "roboto";
+    margin: 0px 0px ;
+    color: rgba(59, 58, 60, 0.884) ;
+    line-height: 25px;
+}
+
+.c1 , .f1 , .h1, .m1 ,.r1 ,.x1 ,.z1,.i11,.l11,.n11,.r11{
+    font: 600 .82vmax "roboto";
+    margin: 15px 39px ;
+    color: rgba(59, 58, 60, 0.884) ;
+    line-height: 25px;
+}
+.middle2{
+    /* margin-top: 70px; */
+    margin-left: 16px;
+    cursor: pointer;
+}
+.middle2 h3{
+    font: 600 1vmax "roboto";
+    margin-left: 22px;
+}
+.c{
+    width: 78%;
+    margin-left: 230px;
+    border-color: rgba(214, 214, 215, 0.375);
+    /* margin-bottom: 100px; */
+}
+.middle3{
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.sp1{
+    font: 600 .82vmax "roboto";
+    color: #000;
+}
+.middle3 h1{
+    font: 300 .82vmax "roboto";
+    letter-spacing: .5px;
+}
+.middlea, .middleb,.middlec{
+    width: 30%;
+    min-height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0 40px;
+    padding-bottom: 20px;
+}
+.middle4{
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.middle4 h1{
+    font: 300 .82vmax "roboto";
+    color: rgb(26, 44, 97);
+    cursor: pointer;
+}
+.middle4 h1:hover{
+    font: 900 .85vmax "roboto";
+    color: rgb(13, 28, 79);
+}
+
+.middle4left{
+    width: 84%;
+    min-height: 11vh;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.middle4right1 ,.middle4right2 {
+    width: 13%;
+    min-height: 12vh;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    padding: 0 22px;
+    border: 2px solid rgb(164,240,251);
+    letter-spacing: .5px;
+}
+.middle4right1 h1,.middle4right2 h1{
+    font: 900 1vmax "roboto";
+    color: rgb(15, 15, 15);
+}
+.middle4right1:hover,.middle4right2:hover{
+ background-color:rgb(164,240,251) ;
+}
+.box15b{
+    min-height: 30vh;
+    width: 100%;
+    background-color: rgb(245,247,250);
+    padding: 0 1px 0 140px;
+}
+.middle5{
+    width: 100%;
+    min-height: 30vh;
+    /* background-color: aqua; */
+    display: flex;
+   
+    align-items: center;
+    /* padding: 20px; */
+}
+.middle5a ,.middle5b,.middle5c{
+    width: 32%;
+    min-height:28vh ;
+    margin-right: 25px;
+}
+.middle5a h1 ,.middle5b h1,.middle5c h1{
+    font: 900 .85vmax "roboto";
+}
+.middle5a p ,.middle5b p{
+    font: 500 .8vmax "roboto";
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+.middle5c{
+    width: 24.7%;
+}
+.images img{
+  margin: 10px 10px;
+}
+.box16{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(245,247,250);
+    padding: 0 1px 0 0px;
+}
+.box16a{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(245,247,250);
+    padding: 0 1px 0 140px;
+}
+.b16b0{
+    width: 11%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b0 h1{
+    font: 900 1vmax "roboto";
+}
+.d{
+    width: 78.5%;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+.b16b1{
+    width: 7%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b1 h1{
+    font: 900 1vmax "roboto";
+}
+.e{
+    width: 83%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.b16b2{
+    width: 11%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b2 h1{
+    font: 900 1vmax "roboto";
+}
+.f{
+    width: 79%;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+.b16b3{
+    width: 7%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b3 h1{
+    font: 900 1vmax "roboto";
+}
+.g{
+    width: 87%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.b16b4{
+    width: 12%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b4 h1{
+    font: 900 1vmax "roboto";
+}
+.h{
+    width: 78.5%;
+    margin-left: 170px;
+    margin-bottom: 10px;
+}
+.b16b5{
+    width: 27.5%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b5 h1{
+    font: 900 1vmax "roboto";
+}
+.i{
+    width: 63%;
+    margin-left: 390px;
+    margin-bottom: 10px;
+}
+.b16b6{
+    width: 16%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b6 h1{
+    font: 900 1vmax "roboto";
+}
+.j{
+    width: 75%;
+    margin-left: 230px;
+    margin-bottom: 10px;
+}
+.b16b7{
+    width: 16.5%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b7 h1{
+    font: 900 1vmax "roboto";
+}
+.k{
+    width: 74.5%;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+.b16b8{
+    width: 34%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b8 h1{
+    font: 900 1vmax "roboto";
+}
+.l{
+    width: 57%;
+    margin-left: 480px;
+    margin-bottom: 10px;
+}
+.b16b9{
+    width: 13.5%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b9 h1{
+    font: 900 1vmax "roboto";
+}
+.m{
+    width: 77.5%;
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.b16b10{
+    width: 16%;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.b16b10 h1{
+    font: 900 1vmax "roboto";
+}
+.n{
+    width: 75%;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+.last{
+    width: 100%;
+    min-height: 3vh;
+}
+.lasttop{
+    width: 100%;
+    min-height: 1.5vh;
+    background-color:rgb(0,186,242) ;
+}
+.lastbottom{
+    width: 100%;
+    min-height: 1.5vh;
+    background-color: rgb(0,41,112);
+}
+
+
+
